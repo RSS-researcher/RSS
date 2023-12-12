@@ -1,4 +1,4 @@
-# RSS
+# Evaluating the Potential of Large Language Models as Respondents in Sociological Surveys: A Case of Demographic-based Random Sampling.
 This repository contains the code for the paper "Evaluating the Potential of Large Language Models as Respondents in Sociological Surveys: A Case of Demographic-based Random Sampling." All code has been anonymized for confidentiality.
 
 ### Data
@@ -11,7 +11,11 @@ We have reproduced and extended the silicon sampling method described in Argyle 
 
 `anes2012.py`, anes2016.py, and anes2020.py are scripts for converting demographic information of respondents from each respective ANES dataset into first-person prompts.
 
-`main.py` is a script for performing random silicon sampling on the U.S. presidential election candidate choice for each year. You can run ``` python main.py {year} ``` to apply random silicon sampling on the ANES data for the specified year.
+`main.py` is a script for performing random silicon sampling on the U.S. presidential election candidate choice for each year. You can run 
+``` 
+python main.py {year} 
+```
+to apply random silicon sampling on the ANES data for the specified year.
 
 `main_st.py` is a script for stratified experiments. It allows for random silicon sampling from 23 subgroups extracted from the ANES 2020 data.
 
