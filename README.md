@@ -15,7 +15,7 @@ We have reproduced and extended the silicon sampling method described in [Argyle
 ``` 
 python main.py <year>
 ```
-to apply random silicon sampling on the ANES data for the specified year.
+to conduct random silicon sampling on the ANES data for the specified year.
 
 `main_st.py` is a script for stratified experiments. It allows for random silicon sampling from 23 subgroups extracted from the ANES 2020 data. 
 
