@@ -13,7 +13,7 @@ We have reproduced and extended the silicon sampling method described in Argyle 
 
 `main.py` is a script for performing random silicon sampling on the U.S. presidential election candidate choice for each year. You can run 
 ``` 
-python main.py {year} 
+python main.py <year>
 ```
 to apply random silicon sampling on the ANES data for the specified year.
 
