@@ -2,14 +2,14 @@
 This repository contains the code for the paper "Evaluating the Potential of Large Language Models as Respondents in Sociological Surveys: A Case of Demographic-based Random Sampling." All code has been anonymized for confidentiality.
 
 ### Data
-Within the data folder, you'll find the ANES data from the years 2012, 2016, and 2020. Additionally, the questionnaire file `ANES_2020_multiple_questions_selected.xls`, used for our multiple question experiment, is also included. Each dataset can be downloaded from [American National Election Studies (ANES)](https://electionstudies.org/data-center/).
+Within the data folder, you'll find the ANES data from the years 2012, 2016, and 2020. Additionally, the questionnaire file `ANES_2020_multiple_questions_selected.xlsx`, used for our multiple question experiment, is also included. Each dataset can be downloaded from [American National Election Studies (ANES)](https://electionstudies.org/data-center/).
 
 ### Code
 We have reproduced and extended the silicon sampling method described in [Argyle et al., (2023)](https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49#article). The code has been modified and augmented based on the code used by [Argyle et al., (2023)](https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49#article).
 
 `common.py` is a script for using the OpenAI API. Insert your own OpenAI API key and select the desired model as the engine argument. 
 
-`anes2012.py`, anes2016.py, and anes2020.py are scripts for converting demographic information of respondents from each respective ANES dataset into first-person prompts.
+`anes2012.py`, `anes2016.py`, and `anes2020.py` are scripts for converting demographic information of respondents from each respective ANES dataset into first-person prompts.
 
 `main.py` is a script for performing random silicon sampling on the U.S. presidential election candidate choice for each year. You can run 
 ``` 
