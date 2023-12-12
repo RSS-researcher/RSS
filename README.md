@@ -17,6 +17,6 @@ python main.py <year>
 to apply random silicon sampling on the ANES data for the specified year.
 
 `main_st.py` is a script for stratified experiments. It allows for random silicon sampling from 23 subgroups extracted from the ANES 2020 data. 
-`main_mq.py` is a script for the multiple question experiment. It facilitates random silicon sampling using ANES 2020 data for 10 surveys selected in our study. 
+`main_mq.py` is a script for the multiple question experiment. It facilitates random silicon sampling using ANES 2020 data for 10 surveys selected in our study.
 `main_mq_st.py` is a script for stratified experiments on multiple questions. It performs random silicon sampling on 23 subgroups extracted from ANES 2020 data for 10 surveys chosen in our study.
 
