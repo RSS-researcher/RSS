@@ -1,5 +1,5 @@
-# Evaluating the Potential of Large Language Models as Respondents in Sociological Surveys: A Case of Demographic-based Random Sampling.
-This repository contains the code for the paper "Evaluating the Potential of Large Language Models as Respondents in Sociological Surveys: A Case of Demographic-based Random Sampling." All code has been anonymized for confidentiality.
+# Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information.
+This repository contains the code for the paper "Random Silicon Sampling: Simulating Human Sub-Population Opinion Using a Large Language Model Based on Group-Level Demographic Information." All code has been anonymized for confidentiality.
 
 ### Data
 Within the data folder, you'll find the ANES data from the years 2012, 2016, and 2020. Additionally, the questionnaire file `ANES_2020_multiple_questions_selected.xlsx`, used for our multiple question experiment, is also included. Each dataset can be downloaded from [American National Election Studies (ANES)](https://electionstudies.org/data-center/).
