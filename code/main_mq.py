@@ -56,9 +56,6 @@ My answer is
 
 anesdf = pd.read_csv(ANES_FN, sep=SEP, encoding='latin-1', low_memory=False)
 anes_2020_questionnaire = pd.read_excel("./ANES_2020_multiple_questions_selected.xlsx")
-costs = []
-numtoks = []
-tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 distributions = compute_demographic_distribution(anesdf)
 time_date = "Today is November 3, 2020. "
 fake_results = []
