@@ -7,7 +7,7 @@ Within the data folder, you'll find the ANES data from the years 2012, 2016, and
 ### Code
 We have reproduced and extended the silicon sampling method described in [Argyle et al., (2023)](https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49#article). The code has been modified and augmented based on the code used by [Argyle et al., (2023)](https://www.cambridge.org/core/journals/political-analysis/article/out-of-one-many-using-language-models-to-simulate-human-samples/035D7C8A55B237942FB6DBAD7CAA4E49#article).
 
-`common.py` is a script for using the OpenAI API. Insert your own OpenAI API key and select the desired model as the `engine` argument. 
+`common.py` is a script for using the OpenAI API. Insert your own OpenAI API key and select the desired model as the `engine` argument. In our experiment, `gpt-3.5-turbo-0613` was adopted.	
 
 `anes2012.py`, `anes2016.py`, and `anes2020.py` are scripts for converting demographic information of respondents from each respective ANES dataset into first-person prompts.
 
