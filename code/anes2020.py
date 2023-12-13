@@ -1,5 +1,4 @@
 from common import *
-from anes_common import *
 
 SEP=','
 OUTPUT_FN = "./full_results_2020.pkl"
